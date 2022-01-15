@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
 import './style.css';
 
+
 function Counter() {
   const [counter, setCounter] = useState(0);
 
@@ -19,4 +20,3 @@ ReactDOM.render(
   el, 
   document.getElementById('root')
 );
-
